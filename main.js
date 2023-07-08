@@ -15,6 +15,7 @@ function setup(){
     poseNet.on('pose', gotPoses);
 }
  function draw(){
+    background("#Fe4a49");
     document.getElementById("square_side").innerHTML = "The size of square is "+difference+"px";
     fill("#0014a8");
     stroke("#000000");
